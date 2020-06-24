@@ -1,6 +1,6 @@
 <h1>MongoDB Instructions</h1>
 <ul>
-<li>Enter <strong>touch mongodb-org-3.6.repo</strong> into the terminal</li>
+<li>Enter <code>touch mongodb-org-3.6.repo</code> into the terminal</li>
 <li>Now open the <strong>mongodb-org-3.6.repo</strong> file in your code editor (select it from the left-hand file menu) and paste the following into it then save the file:</li>
 <p>
 [mongodb-org-3.6]<br>
