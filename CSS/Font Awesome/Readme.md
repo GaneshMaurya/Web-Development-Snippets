@@ -1,3 +1,4 @@
+<h1>How to add FontAwesome to project</h1>
 <ol>
 <li>Download FontAwesome from   "https://fontawesome.com/start".</li>
 
