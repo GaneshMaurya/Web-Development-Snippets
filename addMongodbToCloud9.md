@@ -4,14 +4,16 @@
 <br>
 <li>Now open the <strong>mongodb-org-3.6.repo</strong> file in your code editor (select it from the left-hand file menu) and paste the following into it then save the file:</li>
 <br>
-<div>
-<p>[mongodb-org-3.6]</p>
-<p>name=MongoDB Repository</p>
-<p>baseurl=https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/</p>
-<p>gpgcheck=1</p>
-<p>enabled=1</p>
-<p>gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc</p>
-</div>
+<code>  
+<pre>
+mongodb-org-3.6]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.6/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
+</pre>
+<code>
 <br>
 <li>Now run the following in your terminal:</li>
 <br>
