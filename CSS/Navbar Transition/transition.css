@@ -1,0 +1,14 @@
+#navbar {
+    position: fixed;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+#navbar #logo {
+    transition: 0.3s;
+    font-size: 45px;
+}
