@@ -1,3 +1,5 @@
+<h1>CSS File for Parallax Effect</h1>
+<pre>
 body, html {
     height: 100%;
     margin: 0;
@@ -13,3 +15,4 @@ body, html {
     width: 100%;                                  /* If you want to cover the whole page */
     height: 100%;                                 /* If you want to cover the whole page */
 }
+</pre>
