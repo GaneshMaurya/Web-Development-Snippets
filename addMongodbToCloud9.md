@@ -13,7 +13,7 @@ gpgcheck=1
 enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
 </pre>
-<code>
+</code>
 <br>
 <li>Now run the following in your terminal:</li>
 <br>
