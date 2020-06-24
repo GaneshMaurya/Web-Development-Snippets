@@ -3,8 +3,7 @@
 <li>Enter <code>touch mongodb-org-3.6.repo</code> into the terminal</li>
 <br>
 <li>Now open the <strong>mongodb-org-3.6.repo</strong> file in your code editor (select it from the left-hand file menu) and paste the following into it then save the file:</li>
-<br>
-<code>  
+<br>  
 <pre>
 mongodb-org-3.6]
 name=MongoDB Repository
@@ -13,20 +12,19 @@ gpgcheck=1
 enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-3.6.asc
 </pre>
-</code>
 <br>
 <li>Now run the following in your terminal:</li>
 <br>
-<p>sudo mv mongodb-org-3.6.repo /etc/yum.repos.d</p>
-<p>sudo yum install -y mongodb-org</p>
+<pre>sudo mv mongodb-org-3.6.repo /etc/yum.repos.d
+sudo yum install -y mongodb-org</pre>
 <br>
 <li>Close the <code>mongodb-org-3.6.repo</code> file and press Close tab when prompted</li>
 <br>
 <li>Change directories back into root <strong>~</strong> by entering cd into the terminal then enter the following commands:</li>
 <br>
-<p>mkdir data</p>
-<p>echo 'mongod --dbpath=data --nojournal' > mongod</p>
-<p>chmod a+x mongod</p>
+<pre>mkdir data
+echo 'mongod --dbpath=data --nojournal' > mongod
+chmod a+x mongod</pre>
 <br>
 <li>Now test mongod with <code>./mongod</code>
 <br>
