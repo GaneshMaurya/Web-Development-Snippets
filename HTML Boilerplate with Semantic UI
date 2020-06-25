@@ -4,7 +4,7 @@
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <!-- CSS file link goes here -->
-    <!-- The CSS file must go after the bootstrap stylesheet or else bootstrap will override the CSS file that we link the project to -->
+    <!-- The CSS file must go after the semantic stylesheet or else semantic ui will override the CSS file that we link the project to -->
   </head>
   <body>
   
